@@ -8,7 +8,7 @@
 		{
 			die('Unable to connect..!!');
 		}
-		mysqli_select_db($con,'project');
+		mysqli_select_db($con,'restuarant');
 	
 	
 		$q = "select * from user where username='$uname' and password='$pwd1'";
